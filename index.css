@@ -1,0 +1,146 @@
+/* Estilos gerais */
+
+
+body {
+    font-family: Arial, sans-serif, helvetica;
+    line-height: 1.6;
+    padding: 0;
+    
+    
+}
+
+header {
+    width: 100%;
+    max-height: 450px;
+
+    padding-bottom: 0%;
+    box-shadow: 30px 30px 60px #bebebe,
+             -30px -30px 60px #ffffff;
+             border-radius: 40px;
+             
+    
+}
+
+header img {
+    width: 100%;
+    max-height: 450px;
+    border-radius: 20px;
+}    
+    
+
+
+.valun{
+    padding: 20px;
+    margin-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Estilos específicos para a lista de psicólogos voluntários */
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #e5c6b3;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.recur{
+    padding-left: 5%;
+    padding-right:5%;}
+
+/* Links */
+a {
+    color: #8a806f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ ul.menu1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  ul.menu1 li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  
+  ul.menu1 li a {
+    color: #172535;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+  
+  ul.menu1 li a:hover {
+    color: #000;
+    text-decoration: not;
+    background-color: #8a806f;
+    color: #fff;
+    
+  }
+
+
+  button {
+    background-color: #e5c6b3;
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #e0f5ae 0%, #b9622c 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 9em;
+   }
+
+   
